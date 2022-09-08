@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="504.0" prefWidth="855.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="flashcardfinal1.FXML1Controller">
+   <children>
+      <ImageView fitHeight="416.0" fitWidth="479.0" layoutX="188.0" layoutY="52.0" opacity="0.12" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/bg.png" />
+         </image>
+      </ImageView>
+      <JFXTextArea fx:id="answer" labelFloat="true" layoutX="22.0" layoutY="183.0" prefHeight="206.0" prefWidth="812.0" promptText="Add a description or answer, like&quot;Sultan Ruknuddin Baybars&quot;" unFocusColor="RED">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font></JFXTextArea>
+      <JFXTextField fx:id="question" labelFloat="true" layoutX="22.0" layoutY="111.0" prefHeight="25.0" prefWidth="812.0" promptText="Enter a tiltle or question like, &quot;Who was the best ruler of the Mamluk dynasty?&quot;" unFocusColor="RED">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font></JFXTextField>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="22.0" layoutY="14.0" onMouseReleased="#save" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/folder-download.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="357.0" layoutY="432.0" onAction="#next" prefHeight="31.0" prefWidth="141.0" style="-fx-background-color: #FF9800;" text="Play for next card">
+         <font>
+            <Font size="15.0" />
+         </font></JFXButton>
+      <Label fx:id="wrong" alignment="CENTER" layoutX="272.0" layoutY="404.0" prefHeight="17.0" prefWidth="311.0" textFill="#fc0000" />
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="90.0" layoutY="14.0" onMouseReleased="#home" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/home.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="822.0" layoutY="14.0" onMouseReleased="#exit" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/icons8-cancel-48.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

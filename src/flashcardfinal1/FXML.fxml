@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="504.0" prefWidth="855.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="flashcardfinal1.FXMLController">
+   <children>
+      <ImageView fitHeight="470.0" fitWidth="830.0" layoutX="13.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/c6ca38df.png" />
+         </image>
+      </ImageView>
+      <JFXButton buttonType="RAISED" layoutX="335.0" layoutY="155.0" onAction="#creat" prefHeight="41.0" prefWidth="187.0" ripplerFill="#dce775" style="-fx-background-color: #4FC3F7;" styleClass="d" stylesheets="@style.css" text="Create your own cards">
+         <font>
+            <Font name="Century" size="15.0" />
+         </font></JFXButton>
+      <JFXButton layoutX="335.0" layoutY="236.0" onAction="#play" prefHeight="41.0" prefWidth="187.0" style="-fx-background-color: #4FC3F7;" styleClass="d" stylesheets="@style.css" text="Play your cards">
+         <font>
+            <Font name="Century" size="15.0" />
+         </font></JFXButton>
+      <JFXButton layoutX="335.0" layoutY="320.0" onAction="#exit" prefHeight="41.0" prefWidth="187.0" ripplerFill="#dce775" style="-fx-background-color: #4FC3F7;" styleClass="d" stylesheets="@style.css" text="Exit">
+         <font>
+            <Font name="Century" size="15.0" />
+         </font></JFXButton>
+   </children>
+</AnchorPane>

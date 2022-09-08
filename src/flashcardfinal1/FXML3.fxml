@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="504.0" prefWidth="855.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="flashcardfinal1.FXML3Controller">
+   <children>
+      <ImageView fitHeight="371.0" fitWidth="557.0" layoutX="151.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/assessing_YLs.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="119.0" layoutY="32.0" prefHeight="31.0" prefWidth="617.0" text="Free Flashcard Maker" textFill="#0288d1">
+         <font>
+            <Font name="Bookman Old Style Bold" size="37.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="120.0" layoutY="77.0" prefHeight="31.0" prefWidth="617.0" text="Make your own flashcards" textFill="#0288d1">
+         <font>
+            <Font name="Rockwell" size="25.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="343.0" layoutY="375.0" onAction="#start" style="-fx-background-color: #388E3C;" styleClass="d" stylesheets="@style.css" text="Start Now">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="23.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="823.0" layoutY="4.0" onMouseReleased="#exit" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/icons8-cancel-48.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

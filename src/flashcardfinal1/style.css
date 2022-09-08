@@ -1,0 +1,14 @@
+.d:hover{
+    -fx-border-color: #E6EE9C;
+    -fx-border-width: 0px 0px 3px 0px;
+}
+
+.s:hover{
+    -fx-border-color: #0097A7;
+    -fx-border-width: 0px 0px 0px 5px;
+}
+
+.a:hover{
+    -fx-border-color: #212121;
+    -fx-border-width: 2px 2px 2px 2px;
+}

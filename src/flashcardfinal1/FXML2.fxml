@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" onMouseReleased="#exit" prefHeight="504.0" prefWidth="855.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="flashcardfinal1.FXML2Controller">
+   <children>
+      <Label fx:id="showAnswer" layoutX="30.0" layoutY="115.0" prefHeight="156.0" prefWidth="800.0" style="-fx-background-color: #E0E0E0; -fx-background-radius: 20;" text="   ">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font></Label>
+      <JFXButton fx:id="showId" layoutX="369.0" layoutY="323.0" onAction="#show" prefHeight="31.0" prefWidth="122.0" ripplerFill="WHITE" style="-fx-background-color: #FF9800;" styleClass="s" stylesheets="@style.css" text="Show Answer">
+         <font>
+            <Font size="15.0" />
+         </font></JFXButton>
+      <JFXButton layoutX="281.0" layoutY="381.0" onAction="#choose" ripplerFill="WHITE" styleClass="a" stylesheets="@style.css" text="Click Here for Chose Your Cards from File" underline="true">
+         <font>
+            <Font size="15.0" />
+         </font></JFXButton>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="818.0" layoutY="13.0" onMouseReleased="#exit" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/icons8-cancel-48.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="18.0" layoutY="13.0" onMouseReleased="#home" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/home.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
